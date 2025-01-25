@@ -20,7 +20,7 @@ const props = defineProps<({
 
 <style lang="scss" scoped>
    .service{
-		height: 10rem;
+		height: 450;
 		display: flex;
 		gap: 2rem;
 

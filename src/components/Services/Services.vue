@@ -12,6 +12,8 @@ import ServiceItem from "./Service-item.vue"
 
 		<ServiceItem src="1.jpg" />
 		<ServiceItem src="1.jpg" />
+		<ServiceItem src="1.jpg" />
+		<ServiceItem src="1.jpg" />
 	</div>
 </template>
 <style lang="scss" scoped>

@@ -11,7 +11,7 @@ export default function lenisInject() {
 	lenis.on("scroll", ScrollTrigger.update)
 
 	gsap.ticker.add((time) => {
-		lenis.raf(time * 1000) // Convert time from seconds to milliseconds
+		lenis.raf(time * 700) // Convert time from seconds to milliseconds
 	})
 
 	gsap.ticker.lagSmoothing(0)

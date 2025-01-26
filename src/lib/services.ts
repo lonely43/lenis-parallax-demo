@@ -17,6 +17,7 @@ export default function servicesAnim(gsap: any, ScrollTrigger: any) {
 
             gsap.to(imgCont, {
                width: newWidth + "%",
+               easy: "none",
                duration: 0.1
             })
          }
@@ -25,8 +26,8 @@ export default function servicesAnim(gsap: any, ScrollTrigger: any) {
       //height
       ScrollTrigger.create({
          trigger: service,
-         start: "top bottom",
-         end: "top top",
+         start: "bottom bottom",
+         end: "+=450",
          scrub: true,
 
          onUpdate: (self: any) => {
@@ -35,6 +36,7 @@ export default function servicesAnim(gsap: any, ScrollTrigger: any) {
 
             gsap.to(service, {
                height: newHeight + "px",
+               easy: "none",
                duration: 0.1
             })
          }

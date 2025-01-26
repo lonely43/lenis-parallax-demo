@@ -22,8 +22,8 @@
       justify-content: center;
 
       .hero-video{
-         z-index: -1;
-         position: absolute;
+         z-index: -20;
+         position: fixed;
          left: 0;
          bottom: 0;
          width: 100%;

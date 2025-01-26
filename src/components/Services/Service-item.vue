@@ -13,7 +13,7 @@ const props = defineProps<({
 		</div>
 
 		<div class="service-img">
-			<img :src="'/public/icons/' + src" alt="photo" />
+			<img :src="'/src/assets/content/' + src" alt="photo" />
 		</div>
 	</div>
 </template>

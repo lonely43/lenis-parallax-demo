@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const props = defineProps<({
-	src: String,
-})>()
+// const props = defineProps<({
+// 	src: String,
+// })>()
 
 </script>
 
@@ -13,14 +13,14 @@ const props = defineProps<({
 		</div>
 
 		<div class="service-img">
-			<img :src="'/src/assets/content/' + src" alt="photo" />
+			<img src="/src/assets/content/1.jpg" alt="photo" />
 		</div>
 	</div>
 </template>
 
 <style lang="scss" scoped>
    .service{
-		height: 450;
+		height: 150px;
 		display: flex;
 		gap: 2rem;
 

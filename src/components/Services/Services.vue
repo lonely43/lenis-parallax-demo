@@ -10,14 +10,15 @@ import ServiceItem from "./Service-item.vue"
 			</div>
 		</div>
 
-		<ServiceItem src="1.jpg" />
-		<ServiceItem src="1.jpg" />
-		<ServiceItem src="1.jpg" />
-		<ServiceItem src="1.jpg" />
+		<ServiceItem/>
+		<ServiceItem/>
+		<ServiceItem/>
+		<ServiceItem/>
 	</div>
 </template>
 <style lang="scss" scoped>
 	.services{
+		min-height: 200dvh;
 		padding: 8rem 2rem;
 
 		display: flex;
